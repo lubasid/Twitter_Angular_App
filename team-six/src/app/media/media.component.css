@@ -1,0 +1,23 @@
+body {
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+#tweet_div{
+    background-color: #ecece8 ;
+    margin: 10px;
+    margin-left: .5rem;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+    color: rgb(116, 115, 115);
+}
+
+h2 {
+    margin-left: 1rem;
+}
+
+#username{
+    color: rgb(13, 129, 168);
+}

@@ -1,0 +1,37 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<body>
+    <header>
+        <h1 id = "project_name">
+            {{ title }}
+          </h1>
+        
+          <div id = "input_tag">
+            <input type="text" size="30" name="searchTag" placeholder="Enter #hashtag"  [(ngModel)]='tagHtml'>
+            <button class="GO" id="updateBtn" (click)="updateService()">Go</button>
+          </div>
+          <nav>
+            <a class = "buttons" name="tweetNav" routerLink="/tweet/{{tag}}" ><span>Display Tweets</span></a>
+            <a class = "buttons" name="tagNav" routerLink="/hashtag/{{tag}}" ><span>HashTags</span></a>
+            <a class = "buttons" name="localNav" routerLink="/location/{{tag}}" ><span>Location</span></a>
+            <a class = "buttons" name="imageNav" routerLink="/media/{{tag}}" ><span>Connect</span></a>  
+          </nav>
+
+          <div class="sidebar">
+              <a name="dashNav" routerLink="/dashboard">Dashboard</a>
+            </div>
+  
+  
+  
+    </header>
+    
+  
+  
+    <router-outlet></router-outlet>
+
+
+</body>
+
+
+
+
+

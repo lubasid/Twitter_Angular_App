@@ -1,0 +1,18 @@
+<h2>
+  Connect with others talking about #<span name="searchedTag">{{searchTag}}</span>:
+</h2>
+<div *ngFor="let tweet of tweets">
+  <div>  
+  </div>
+    <div [@trig]="tweets.length">
+        <div id = "tweet_div">
+          <img src="{{tweet.profile_pic}}" alt="ProfilePic" height="100" width="100">
+          <div>Find out more about: </div>
+          <a href="https://twitter.com/{{tweet.username}}" id="username">{{tweet.username}} </a>
+                ... and connect through {{searchTag}}!
+                <div><br>Tweeting from: {{tweet.location}}</div>
+        </div>
+    </div>
+  </div>
+
+  <router-outlet></router-outlet>

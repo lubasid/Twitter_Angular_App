@@ -1,0 +1,134 @@
+body {
+    font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: rgb(116, 115, 115);
+    background-color: #d9dad3;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+header {
+    margin: 0px;
+    padding: 3.5rem 3.5rem;
+    color: rgb(244, 242, 242);
+    text-align: center;
+    background-image: linear-gradient(90deg, #155799, #7c7484);
+}
+#project_name{
+    font-size: 2.35rem;
+}
+nav{
+    margin-top: 25px;
+
+}
+.buttons{
+    padding: 0.75rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+
+    border-color: rgba(249, 246, 246, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.7rem;
+
+    color: rgba(249, 247, 247, 0.7);
+    background-color: rgba(255, 255, 255, 0.16);
+
+    text-decoration: none;
+
+    transition:all 0.5s;
+    cursor: pointer;
+
+}
+
+.buttons span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.buttons span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top:0;
+    right: -20px;
+    transition: 0.5s;
+}
+.buttons:hover span {
+  padding-right: 25px;
+}
+
+.buttons:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.buttons:active {
+    opacity: .5;
+}
+
+.GO {
+    cursor: pointer;
+    
+}
+
+.GO:hover {background-color: #3e8e41}
+
+.GO:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+
+
+#updateBtn {
+    padding: 0.25rem;
+    font-size: 0.9rem;
+    margin-bottom: .1rem;
+
+    border-color: rgba(249, 246, 246, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.7rem;
+
+    color: rgba(249, 247, 247, 0.7);
+    background-color: rgba(255, 255, 255, 0.16);
+
+    text-decoration: none
+}
+
+#updateBtn:active {
+    opacity: .5;
+}
+
+.sidebar {
+    margin: 0px;
+    width: 78px;
+    position: fixed;
+    z-index: 1;
+    top: 25px;
+    left: 8px;
+
+    border-color: rgba(255, 255, 255, 0.2);
+    border-style: double;
+    border-width: 1px;
+    border-radius: 0.2rem;
+
+
+    background-color: rgba(252, 245, 245, 0.09);
+    border-color: rgba(246, 243, 243, 0.2);
+    
+    padding: 7px 0;
+}
+
+.sidebar a {
+    padding: 2px 4px 3px 10px;
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(11, 29, 43);
+    display: block;
+}
+.sidebar a:hover {
+    color: #a7b3bc;
+}

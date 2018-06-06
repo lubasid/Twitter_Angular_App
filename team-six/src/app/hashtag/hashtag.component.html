@@ -1,0 +1,14 @@
+<div id="back">
+  <h2>
+    Related Hashtags for #<span name="searchedTag">{{searchTag}}</span>: 
+  </h2>
+  <div *ngFor="let tweet of tweets">
+    <div >  
+    </div>
+      <div  [@trig]="tweets.length" >
+        <div  id = "tag_div">{{tweet}}</div>
+      </div>
+    </div>
+    
+  </div>
+  <router-outlet></router-outlet>

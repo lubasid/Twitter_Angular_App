@@ -1,0 +1,14 @@
+#locate_div {
+    background-color: #ecece8 ;
+    display: block;
+    margin: 10px;
+    margin-left: .5rem;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+    color: rgb(116, 115, 115);
+}
+
+h2 {
+    margin-left: 1rem;
+}

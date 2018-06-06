@@ -1,0 +1,12 @@
+<h2>
+  Tweets for #<span name="searchedTag">{{searchTag}}</span>:
+</h2>
+<div *ngFor="let tweet of tweets">
+  <div>  
+  </div>
+    <div [@trig]="tweets.length">
+      <div id = "tweet_div"><a href="https://twitter.com/{{tweet.username}}" id="username">{{ tweet.username }}</a>: {{tweet.text}}</div>
+    </div>
+  </div>
+
+  <router-outlet></router-outlet>

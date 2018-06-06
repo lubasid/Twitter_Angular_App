@@ -1,0 +1,21 @@
+
+#intro{
+
+    margin: auto;
+    width: 400px;
+    height: 350px;
+    
+}
+#authors{
+    padding-top: 200px;
+    padding-left: 80px;
+    font-size: 11px;
+}
+
+ol li{
+    padding: 0px 2px;
+}
+
+ul li{
+    padding : 7px;
+}

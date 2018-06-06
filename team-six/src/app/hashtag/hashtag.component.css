@@ -1,0 +1,34 @@
+#tag_div{
+    background-color: #ecece8 ;
+    margin: 10px;
+    margin-left: .5rem;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+    color: rgb(116, 115, 115);
+}
+
+h2 {
+    margin-left: 1rem;
+}
+
+#wcbtn {
+    padding: 0.25rem;
+    font-size: 0.9rem;
+    margin-bottom: .1rem;
+    margin-right: 4rem;
+    float: right;
+    border-color: rgba(249, 246, 246, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.7rem;
+
+    color: whitesmoke;
+    background-image: linear-gradient(90deg, #155799, #7c7484);
+
+    text-decoration: none
+}
+
+#wcbtn:hover {
+    opacity: .5;
+}
