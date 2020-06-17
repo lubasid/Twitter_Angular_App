@@ -1,11 +1,10 @@
 #	Purpose
 
-This programs purpose is to get us an A in CSC515 <br />
-Will be a related tag word cloud pulling from social media websites <br />
-Current Version is 0.1.0
+This app was created as a project in CSC 515. 
+<br />
+The application will be a app which accesses the twitter api, and based on the users input, tweets related to the given input are displayed along with other tweet information. <br />
 
-**Todo** <br />
-	Create the program
+
 
 ## To Use
 
@@ -28,9 +27,3 @@ ng test
 #To run e2e test cases
 ng e2e
 ```
-
-## Authors
-Nick Hafner <br />
-Sam Trenter <br />
-Lyubov Sidlinskaya <br />
-Parker Mertz <br />
